@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    margin-right: 3rem;
+    
+
+}
+#myBtn {
+  
+   margin-top: 2rem;
+
+}
+#myBtn > img {
+    width: 4rem;
+    height: 4rem;
+    
+   
+}
+
+

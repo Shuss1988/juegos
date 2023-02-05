@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-bottom: 2rem;
+}
+
+.container{
+    margin: 0rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+   
+}
+figure{
+    border: 1px solid black;
+    margin-top: 1rem;
+    border-radius: 1rem;
+   
+   
+}
+figure img{
+   justify-content: center;
+   width: 20rem;
+   height: 15rem;
+   display: flex;
+   align-items: center;
+ 
+}
+
+.pokemon > img{
+ margin-top: -7rem;
+ margin-left: 22rem;
+}
+nav > ul > li {
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
