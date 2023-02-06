@@ -3,19 +3,48 @@ header{
     justify-content:right;
     align-items:center;
     margin-right: 3rem;
+    margin-top: 2rem;
+}
+.home{
     
-
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: transparent;
 }
 #myBtn {
-  
-   margin-top: 2rem;
 
+  
+   background-color: transparent;
+   border: none;
+  
+}
+#colores{
+    border-radius: 50%;
+ 
 }
 #myBtn > img {
-    width: 4rem;
-    height: 4rem;
+    width: 2em;
+    height: 2rem;
+    background-color: transparent;
     
-   
 }
+.home img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
 
+}
+nav > .logOut > img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 2rem;
+    height: 2.5rem; 
 
+}
+nav > .logOut{
+    border:  none;
+    background-color: transparent;
+}

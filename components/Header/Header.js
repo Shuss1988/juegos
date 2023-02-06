@@ -4,9 +4,10 @@ import "./Header.css";
 //Configuramos el template que queremos pintar
 const template = () => `
 <nav>
-  <button id="myBtn"><img src="../../public/imagenes/colors.webp"/></button>
-  <button class="home">HOME</button>
-  <button class=""</button>
+  <button id="myBtn"><img id="colores" src="../../public/imagenes/colors.webp"/></button>
+  <button class="home">🔙</button>
+  <button class="logOut"><img src="../../public/salida.png"></button>
+
 </nav>
 `;
 

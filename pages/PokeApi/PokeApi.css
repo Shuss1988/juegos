@@ -2,9 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
-h1{
-    margin-bottom: 2rem;
+@media (max-width: 812px){
+    nav > .search{
+       display: flex;
+       margin-top: 1rem;
+    }
+    .pokemon > .pokemon2{
+        width: 14rem;
+        height: 6rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .container > figure > img{
+        width: 10rem;
+        height: 7rem;
+       
+
+    }
+
+
 }
 
 .container{
@@ -13,31 +31,137 @@ h1{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 70px;
-   
+    gap: 90px;
+    
+}
+
+#botonAll{
+
+    background-color: brown;
+}
+#searchInput{
+
+    margin-bottom: 2rem;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: black;
+
 }
 figure{
-    border: 1px solid black;
-    margin-top: 1rem;
+
     border-radius: 1rem;
-   
-   
+    outline: 2px solid black;
+    margin-top: 3rem;
+
+    
 }
 figure img{
    justify-content: center;
    width: 20rem;
    height: 15rem;
    display: flex;
-   align-items: center;
- 
+    transition: transform .2s; 
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    text-align: 1rem;
+    border-radius: 2px;
+    
 }
 
+figure > img:hover{
+    transform: scale(1.2);
+   
+    width: 18rem;
+    height: 17rem ;
+    border-radius: 0.8rem;
+}
+
+.pokemon{
+
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+
+ display: flex;
+ flex-wrap:wrap ;
+
+}
 .pokemon > img{
- margin-top: -7rem;
- margin-left: 22rem;
+    width: 28rem;
+    height: 11rem;
 }
-nav > ul > li {
-    display:  flex;
-    align-items: center;
+nav > button{
+ 
+    font-size: 1rem;
+    width: 4.5rem;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    
 }
+
+.grass{
+    background-image: linear-gradient(to top,rgba(240, 245, 240, 0.92),rgb(0, 128, 0));
+    
+}
+.fire{
+    background-image: linear-gradient(to top,rgb(241, 241, 241),rgb(223, 14, 14));
+   
+} 
+.water{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(55, 113, 193));
+   
+}
+.bug{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(141, 132, 4));
+}
+.normal{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(132, 136, 146));
+} 
+.poison{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(69, 27, 93));
+} 
+.electric{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(243, 230, 85));
+}
+.ground{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(99, 65, 30));
+} 
+.fairy{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(203, 111, 174));
+
+}
+.fighting{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(208, 85, 40));
+}
+.psychic{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(119, 3, 84));
+}
+.rock{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(59, 58, 57));
+}
+.ghost{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(204, 118, 214));
+
+}
+.ice{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(93, 182, 207));
+} 
+.dragon{
+    background-image: linear-gradient(to top,rgb(244, 239, 239),rgb(4, 28, 80));
+}
+
+

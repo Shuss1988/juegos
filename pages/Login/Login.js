@@ -2,10 +2,10 @@ import "./Login.css";
 import { printTemplate as HeaderTemplate } from "../Home/Home";
 
 const template = () => `
-<section class="login">
+<section class="loginGlobal">
 <h1>NEOLAND HUB-GAMES</h1>
 <h3>Introduce tu nombre</h3>
-<input type="text" id="loginInput"/>
+<input type="text" class="inputLogin" id="loginInput"/>
 <button id="loginBtn"> 👌🏽</button>
 </section>
 `;
