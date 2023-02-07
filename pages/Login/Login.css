@@ -1,3 +1,21 @@
+@media (max-width: 600px){
+    section > .inputLogin{
+        width: 10rem;
+    }
+    section > h3 {
+        font-size: 1rem;
+    }
+       
+    }
+    section > h1 {
+        font-size: 2rem;
+    }
+    section > #loginBtn {
+        font-size: 1rem;
+    }
+       
+       
+
 section{
    text-align: center;
    margin-top: 5rem;
@@ -45,6 +63,8 @@ div > h3{
     border: transparent;
     background-color: transparent;
     font-size: 2rem;
+    margin-top: 1rem;
+    border: 1px solid black;
 
     
    

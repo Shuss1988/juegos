@@ -94,7 +94,7 @@ const addEventListener =()=> {
 }
 
 const filteredPokemons =(array, type)=>{
-  console.log(type, "type ")
+  console.log(type, "type")
   const filteredGrass = array.filter((typ)=>
 typ.types === type)
 

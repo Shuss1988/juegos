@@ -9,19 +9,22 @@ const template = () => `
    
     <ul>
       <li>
+      </li> 
+      <li>
       <button class="logOut"></button>
       </li>
       <li>
         <button id="pokeApi"><img src="/public/pokeApi.png"</button>
       </li>
-      <li>
-        <button id="quiz">QuizGame</button>
-      </li>
- 
+      
     </ul>
 
-</section>
-`;
+    </section>
+    `;
+      // <li>
+      //   <button id="quiz">QuizGame</button>
+      // </li>
+ 
 const addListeners = () => {
   const pokeApi = document.querySelector("#pokeApi")
   console.log(pokeApi)
